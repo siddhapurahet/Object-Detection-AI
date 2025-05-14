@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
-const port = process.env.PORT || 3000;  // Render sets the port environment variable
+const port = process.env.PORT || 5000;  // Render sets the port environment variable
 
 // Serve static files from the current directory
 app.use(express.static(path.join(__dirname, '/')));
