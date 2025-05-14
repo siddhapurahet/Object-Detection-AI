@@ -1,4 +1,4 @@
-// server.js
+// server.js -> This is responsible for starting the server side of the application. The framework used is Express.
 const express = require('express');
 const path = require('path');
 
